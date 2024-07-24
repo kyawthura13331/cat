@@ -1,0 +1,134 @@
+body{
+	 padding: 100px;
+        font-family: Arial, sans-serif;
+        text-align: center;
+    background: #034685;
+}
+
+#logo{
+	font-size: 60px;
+}
+#header{
+     background: #003366;
+     color: #ffffff;
+     border-bottom: 1px solid #cccccc;
+}
+#s,#c,#Co{
+	padding: 10px;
+        display: inline-block;
+        text-decoration: none;
+        border: 1px solid black;
+        border-radius: 30deg;
+        background-color: #7dad8b;
+        margin: 3px;
+}
+#main{
+		background: #f2f2f2;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 1px 1px 2px #cccccc;
+        position: relative;
+        height: 100%;
+        overflow: auto;
+}
+h1{
+		margin: 0 0 10px;
+        font-size:1.5em;
+        color: #003366;
+        text-align: left;
+}
+
+text{
+	text-align: left;
+}
+table {
+ border-collapse: collapse;
+}
+#ta{
+	display: flex;
+	justify-content: center;
+	
+}
+th, td {
+	background: lightblue;
+	width: 20vw;
+ border: 1px solid black;
+ padding: 15px;
+ text-align: left;
+
+}
+#fff{
+	display: flex;
+	margin: 3px;
+	width: 100%;
+	height: 80vh;
+	background: #6bb7c9;
+}
+#myp{
+	width: 40%;
+	height: 100%;
+}
+#caption{
+	width: 60%;
+	height: 100%;
+	font-size: 40px;
+	text-align: left;
+}
+.slider {
+    position: relative;
+    width: 60%;
+    overflow: hidden;
+    justify-content: center;
+}
+.images {
+    display: flex;
+    width: 100%;
+}
+.images img {
+    height: 400px;
+    width: 100%;
+    transition: all 1s ease;
+}
+.images input {
+    display: none;
+}
+.dots {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.dots label {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: solid black 3px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    margin: 5px;
+}
+.dots label:hover {background:blue;}
+#img1:checked ~ .m1 {
+    margin-left: 0;
+}
+#img2:checked ~ .m2 {
+    margin-left: -100%;
+}
+#img3:checked ~ .m3 {
+    margin-left: -200%;
+}
+#img4:checked ~ .m4 {
+    margin-left: -300%;
+}
+.fb i{
+	font-size: 50px;
+}
+.fb a,.fb text{
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+}
+.fb{
+	display: flex;
+	justify-content: left;
+	margin: 3px;
+
+}
